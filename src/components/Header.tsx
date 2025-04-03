@@ -46,10 +46,10 @@ export default function Header() {
       {menuOpen && (
         <div className="fixed top-16 right-0 left-0 w-64 h-full bg-black bg-opacity-20 backdrop-blur-md text-white p-4 z-10">
           <ul>
-            <li onClick={() => scrollToSection('section1')} className="cursor-pointer py-2">Opción 1</li>
-            <li onClick={() => scrollToSection('section2')} className="cursor-pointer py-2">Opción 2</li>
-            <li onClick={() => scrollToSection('section3')} className="cursor-pointer py-2">Opción 3</li>
-            <li onClick={() => scrollToSection('section4')} className="cursor-pointer py-2">Opción 4</li>
+            <li onClick={() => scrollToSection('section1')} className="cursor-pointer py-2">Home</li>
+            <li onClick={() => scrollToSection('section2')} className="cursor-pointer py-2">The Band</li>
+            <li onClick={() => scrollToSection('section3')} className="cursor-pointer py-2">Events</li>
+            <li onClick={() => scrollToSection('section4')} className="cursor-pointer py-2">Fan Club</li>
           </ul>
         </div>
       )}
