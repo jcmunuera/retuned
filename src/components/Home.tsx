@@ -1,7 +1,7 @@
-// src/components/Section1.tsx
+// src/components/Home.tsx
 'use client';
 
-export default function Section1() {
+export default function Home() {
   const commonProps = {
     id: 'section1',
     backgroundImage: "url('/images/Home.jpg')",

@@ -1,16 +1,17 @@
 // src/app/page.tsx
-import Section1 from '../components/Section1';
-import Section2 from '../components/Section2';
-import Section3 from '../components/Section3';
-import Section4 from '../components/Section4';
+import Home from '../components/Home';
+import Band from '../components/Band';
+import Events from '../components/Events';
+import FanClub from '../components/Fanclub';
 
-export default function Home() {
+
+export default function Start() {
   return (
     <>
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
+      <Home />
+      <Band />
+      <Events />
+      <FanClub />
     </>
   );
 }
